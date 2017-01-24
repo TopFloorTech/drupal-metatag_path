@@ -1,0 +1,9 @@
+entity.metatag_path.collection:
+  route_name: entity.metatag_path.collection
+  base_route: entity.metatag_path.collection
+  title: List
+
+entity.metatag_path.edit_form:
+  route_name: entity.metatag_path.edit_form
+  base_route: entity.metatag_path.edit_form
+  title: Edit

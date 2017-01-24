@@ -1,0 +1,5 @@
+services:
+  metatag_path.metatag_path_subscriber:
+    class: Drupal\metatag_path\EventSubscriber\MetatagPathSubscriber
+    tags:
+      - { name: event_subscriber }

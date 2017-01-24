@@ -1,0 +1,8 @@
+name: Metatag Path
+description: Enabled path-based meta tag support for Metatag.
+core: 8.x
+package: SEO
+type: module
+requirements:
+  - metatag
+

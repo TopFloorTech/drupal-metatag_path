@@ -1,0 +1,5 @@
+entity.metatag_path.collection:
+  title: 'Metatag Paths'
+  route_name: entity.metatag_path.collection
+  parent: system.admin_config_content
+  description: 'Manage metatag paths.'

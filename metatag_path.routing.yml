@@ -1,0 +1,31 @@
+entity.metatag_path.collection:
+  path: '/admin/config/content/metatag_path'
+  defaults:
+    _entity_list: 'metatag_path'
+    _title: 'Metatag paths'
+  requirements:
+    _permission: 'administer metatag_path'
+
+entity.metatag_path.add_form:
+  path: '/admin/config/content/metatag_path/add'
+  defaults:
+    _entity_form: 'metatag_path.add'
+    _title: 'Add metatag path'
+  requirements:
+    _permission: 'administer metatag_path'
+
+entity.metatag_path.edit_form:
+  path: '/admin/config/content/metatag_path/{metatag_path}'
+  defaults:
+    _entity_form: 'metatag_path.edit'
+    _title: 'Edit metatag path'
+  requirements:
+    _permission: 'administer metatag_path'
+
+entity.metatag_path.delete_form:
+  path: '/admin/config/content/metatag_path/{metatag_path}/delete'
+  defaults:
+    _entity_form: 'metatag_path.delete'
+    _title: 'Delete metatag path'
+  requirements:
+    _permission: 'administer metatag_path'

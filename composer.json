@@ -1,0 +1,8 @@
+{
+  "name": "drupal/metatag_path",
+  "type": "drupal-module",
+  "description": "Metatag Path",
+  "homepage": "https://github.com/TopFloorTech/drupal-metatag_path",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev"
+}
